@@ -40,6 +40,7 @@
     
     .header, .footer {
       grid-column: 1 / -1;
+
       clear: both;
       background-color:#8fce00;
       text-align: center;
@@ -52,9 +53,11 @@
     border-radius: 5px;
     padding: 20px;
     font-size: 100%;
+
     margin-bottom: 10px;
   }
   
+
   @supports (display: grid) {
     .wrapper > * {
       width: auto;
